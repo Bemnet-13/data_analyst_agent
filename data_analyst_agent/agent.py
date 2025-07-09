@@ -8,7 +8,7 @@ from data_analyst_agent.subagents.market_news_agent.agent import market_news_age
 
 from . import prompt
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-2.0-flash"
 market_news_analyzer = AgentTool(agent=market_news_agent)
 
 data_analyst_agent = Agent(

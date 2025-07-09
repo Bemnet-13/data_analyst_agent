@@ -5,7 +5,7 @@ from google.adk import Agent
 from . import prompt
 from data_analyst_agent.tools.news_sentiment import market_news_sentiment
 
-MODEL="gemini-2.5-pro"
+MODEL="gemini-2.0-flash"
 
 market_news_agent = Agent(
     model=MODEL,
